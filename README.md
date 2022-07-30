@@ -1,2 +1,2 @@
-# cloudresumechallenge
-Cloud Resume Challenge - Terraform Provisioned (AWS)
+# Cloud Resume Challenge
+Terraform Provisioned (AWS)
