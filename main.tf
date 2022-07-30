@@ -15,6 +15,7 @@ terraform {
     }
 }
 
+# Change profile to use another iam profile
 provider "aws"{
     region = "us-east-1"
     # profile = "default"
