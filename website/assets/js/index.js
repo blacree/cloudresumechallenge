@@ -31,11 +31,11 @@ function rendercountonpage(response){
 
 if (localStorage.getItem("crc_page_viewed") === undefined){
   localStorage.setItem("crc_page_viewed", true);
-  var Url = "https://pciiz8umgf.execute-api.us-east-1.amazonaws.com/testcors/getcounter?update=true";
+  var Url = "https://li5uogtb4l.execute-api.us-east-1.amazonaws.com/production/getcounter?update=true";
   httpGetAsync(Url, rendercountonpage);
 }
 else {
-  var Url = "https://pciiz8umgf.execute-api.us-east-1.amazonaws.com/testcors/getcounter?update=false";
+  var Url = "https://li5uogtb4l.execute-api.us-east-1.amazonaws.com/production/getcounter?update=false";
   httpGetAsync(Url, rendercountonpage);
 }
 
