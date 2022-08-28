@@ -29,7 +29,7 @@ function rendercountonpage(response){
   counterContainer.innerHTML = "Visit Counter: " + response.replaceAll('\"', '');
 }
 
-if (localStorage.getItem("crc_page_viewed") === undefined){
+if (localStorage.getItem("crc_page_viewed") === null){
   localStorage.setItem("crc_page_viewed", true);
   var Url = "https://li5uogtb4l.execute-api.us-east-1.amazonaws.com/production/getcounter?update=true";
   httpGetAsync(Url, rendercountonpage);
