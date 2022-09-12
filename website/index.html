@@ -90,7 +90,7 @@
         This was done with the aim to test one's ability to research and learn as these are integral to being a successful IT professional. 
         The project required one to work with various technologies and implement different processes which include; <mark>HTML, CSS, DNS, JavaScript, Python, 
         API implementation, Infrastructure as Code and CI/CD</mark>. The challenge also required a wide range of <mark>AWS</mark> services some of which include; 
-        <mark>S3, CloudFront, IAM, API Gateway, Lambda, Route53, DynamoDB and AWS CLI</mark>. After completing the challenge using the aws console i went ahead to implement 
+        <mark>S3, CloudFront, IAM, API Gateway, Lambda, Route53, CloudFormation, DynamoDB and AWS CLI</mark>. After completing the challenge using the aws console i went ahead to implement 
         the same infrastrcture using <mark>Terraform</mark> which can be viewed using the Github link above.
         This web page is hosted on <mark>AWS</mark> and is the resulting webpage of this challenge.
       </p>
@@ -151,7 +151,7 @@
       <br>
       <p style="text-align:justify">
         A node application which is package as a Docker image is deployed on a Docker network to interact with a Mongodb database that can be accessed using Mongoexpress. The implementation is also replicated
-        on a Kubernetes Cluster.
+        on <mark>AWS ECS</mark> and on a Kubernetes Cluster both locally (using minikube) and on <mark>AWS EKS</mark>
       </p>
     </div>
 
@@ -162,11 +162,11 @@
   <div class="container list-container" style="margin-bottom: 0.7in;">
     <h3 style="text-align: left;">Experience</h3>
 
-    <div class="row clearfix layout layout-left">
+    <!-- <div class="row clearfix layout layout-left">
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-        <h4>Bincom ICT Solutions</h4><p><b>Cloud Engineer (Intern, Remote)</b></p><p>December 2021 - March 2022</p>
+        <h4>Bincom ICT Solutions</h4><p><b>Cloud Engineer (Intern, Remote)</b></p><p>December 2021 - March 2022</p> -->
         <!-- <a href="https://boringcompany.com/" target="_blank" class="link">boringcompany.com</a> -->
-      <p class="no-print aditional-links"></p>
+      <!-- <p class="no-print aditional-links"></p>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Bincom ICT solutions is a fast growing Information communication Technology (ICT)
         Solutions firm. Founded in 2006, with a core in web and emerging technologies, Bincom aims in providing cutting edge Technology Solutions and
@@ -176,9 +176,9 @@
         using ansible as well as application service provisioing using Docker and Kubernetes.
       </p>
       </div>
-    </div>
+    </div> -->
 
-    <hr>
+    <!-- <hr> -->
     
   <div class="row clearfix layout layout-left">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
@@ -189,8 +189,20 @@
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Nimbles is an Engineering and IT firm that supplies technological
       services in areas relating to Networking and Communication, Industrial Automation and Electrical Configuration.
     </p>
-    <p>Working with the network engineering department, I performed various network tasks, some of which include: configuration, management and troubleshooting
-      of various network infrastructures; working in teams on various company projects, one of which is rendered as a service today; security implementation and much more.
+    <p>- Configured and managed and engaged in troubleshooting of various network infrastructures such as Cisco
+      Catalyst switches and routers, repeaters, servers, etc. This involved tasks like DHCP configuration, static
+      IP assignment, NAT (network address translation) configuration, backup of already running configuration,
+      repair and replacement of faulty network cables, etc <br>
+      - Implemented security measures for various network infrastructure. For both industrial routers and switches
+      (cisco) I made numerous password security configuration. This include console passwords, AUX
+      passwords, VTY password as well as Enable secret and Enable Password. I implemented port-security onindustrial switches as well ACL (access control list) security on industrial routers. I also configured firewall
+      for various Linux based servers. <br>
+      - I worked actively with the Network Intern Team on a Home Automation Project which has become a major service offered by the company. With the user of Google Home mini and by tracking movement we are
+      able to switch on light bulbs, switches and other moving components in a typical home. With the use of RFID tags we also automated the locking and unlocking of doors. <br>
+      - I worked with the Network Intern Team as the project leader to setup and configure VOIP phones using Linux based servers for the organization. <br>
+      - After engaging in a learning session at the company which exposed me to common cloud and DevOps concepts especially in areas relating IAC, I furthered my knowledge by engaging in numerous cloud
+      projects using AWS. <br>
+      - Built simulations to proffer solutions to needed network architectures.
     </p>
 
     </div>
@@ -199,7 +211,7 @@
 
   <div class="row clearfix layout layout-left">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>AFRGIST</h4><p><b>IT Support Engineer</b></p><p>January 2018 - March 2018</p>
+      <h4>AFRGIST</h4><p><b>IT Support Engineer</b></p><p>January 2018 - April 2018</p>
       <!-- <a href="https://boringcompany.com/" target="_blank" class="link">boringcompany.com</a> -->
     <p class="no-print aditional-links"></p>
     </div>
@@ -208,8 +220,10 @@
       capacities in Geospatial Information Science and Technology for resources mapping and sustainable development and Governance.
     </p>
     <p>
-      I engaged in the installation, setup, troubleshooting, repairing and replacement of computer systems. Crimping of network cables,
-      hard-drive cloning and much more.
+      - Installation and setup of computers systems and components like Rams, Hard-drives, CD drives, Network Interface Cards, etc. <br>
+      - Crimping and repairs of straight-through, cross-over and roll-over cables network cables. <br>
+      - Replicating and cloning of hard-drives. <br>
+      - Troubleshooting, repairs and replacement of faulty computer systems.
     </p>
 
     </div>
@@ -226,7 +240,8 @@
       Classic Systems Limited is an indigenous IT firm that provides IT training with the mission to develop the next generation of enterpreneurs.
     </p>
     <p>
-      Some tasks performed include; front-end appliation developemnt and closely working with Microsoft office tools.
+      - Front-end website development using HTML and CSS. <br>
+      - Use of Microsoft Office applications like Microsoft Word, Microsoft PowerPoint.
     </p>
 
     </div>
