@@ -67,150 +67,52 @@
     </div>
     </div>
 </div>
-
-  <div class="container list-container" style="margin-bottom: 0.7in;">
-          <h3 style="text-align: left;">Cloud Projects</h3>
-            
-  <div class="row clearfix layout layout-top-middle">
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 style="text-align: left;">Cloud Resume Challenge <br>
-        <!-- Github: -->
-        <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;">
-          <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-          - Github: https://github.com/blacree/cloudresumechallenge
-        </a>
-        </h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      <br>
-      <p style="text-align: justify;">The Cloud Resume challenge is an ongoing challenge that motivates people to study and get hands-on experience with the <mark>Cloud</mark>.
-        It is a project that helps to build and demonstrate skills fundamental to pursuing a career as an AWS Cloud Engineer. The project's challenge
-        components were outlined to be brief, often with an explanation or example as the leg work to find the needed solutions was left to the individual.
-        This was done with the aim to test one's ability to research and learn as these are integral to being a successful IT professional. 
-        The project required one to work with various technologies and implement different processes which include; <mark>HTML, CSS, DNS, JavaScript, Python, 
-        API implementation, Infrastructure as Code and CI/CD</mark>. The challenge also required a wide range of <mark>AWS</mark> services some of which include; 
-        <mark>S3, CloudFront, IAM, API Gateway, Lambda, Route53, CloudFormation, DynamoDB and AWS CLI</mark>. After completing the challenge using the aws console i went ahead to implement 
-        the same infrastrcture using <mark>Terraform</mark> which can be viewed using the Github link above.
-        This web page is hosted on <mark>AWS</mark> and is the resulting webpage of this challenge.
-      </p>
-    </div>
-    
-    <hr>
-
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 style="text-align: left;">Terraform AWS Pipeline<br>
-        <!-- Github: -->
-        <a href="https://github.com/blacree/terraform-aws-pipeline" target="_blank" class="" style="font-size: 18px;">
-          <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-          - Github: https://github.com/blacree/terraform-aws-pipeline
-        </a>
-        </h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      <br>
-      <p style="text-align:justify">
-        This projects entails the use of Terraform code and user supplied information to deploy a Terraform plan and apply <mark>Pipeline</mark> on Terraform infrastrcture located in a 
-        Github repository on <mark>AWS</mark>. The AWS components used include <mark>codebuild, codepipeline, IAM, S3 and Cloudwatch</mark>.
-      </p>
-    </div>
-
-    <hr>
-
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 style="text-align: left;">Fullstack web application deployment using ansible and bash scripting (Django application)<br>
-        <a href="https://github.com/blacree/full_stack_application_deployment_aws" target="_blank" class="" style="font-size: 18px;">
-          <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-          - Github: https://github.com/blacree/full_stack_application_deployment_aws
-        </a>
-        </h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      <br>
-      <p style="text-align:justify">
-        A django application is deployed to AWS using <mark>terraform</mark>. This project consist of two deployment types. The first type involves deploying the application to an <mark>EC2</mark> instance in AWS in which
-        terraform is used for provisioning and <mark>ansible</mark> is used for specific configuration. The second type of deployment also involves the use of terraform for the provisioning but the <mark>EC2</mark> instance is
-        created with the use of an <mark>autoscaling group</mark> and a <mark>loadbalancer</mark> and specific configuration is done using <mark>bash scripting</mark>.
-      </p>
-    </div>
-
-    <hr>
-
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 style="text-align: left;">Docker and Kubernetes web application deployment (Nodejs application)<br>
-        <a href="https://github.com/blacree/nodejs_myapp_k8_templates" target="_blank" class="" style="font-size: 18px;">
-          <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-          - Github: https://github.com/blacree/nodejs_myapp_k8_templates
-        </a>
-        </h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      <br>
-      <p style="text-align:justify">
-        A node application which is packaged as a Docker image is deployed on a Docker network to interact with a Mongodb database that can be accessed using Mongoexpress. The implementation is also replicated
-        on <mark>AWS ECS</mark> and on a Kubernetes Cluster both locally (using minikube) and on <mark>AWS EKS</mark>
-      </p>
-    </div>
-
-    <hr>
-
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4 style="text-align: left;">Enviroment Configuration for EC2 Autoscaling on AWS<br>
-        <!-- Github: -->
-        <!-- <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;"> -->
-          <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-          <!-- - Github: https://github.com/blacree/terraform-aws-pipeline
-        </a> -->
-        </h4>
-    </div>
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      <br>
-      <p style="text-align:justify">
-        This project which uses <mark>Terraform</mark> consists of two parts. The first part involves configuring an autoscaling group that deploys multiple <mark>EC2</mark> instances of an <mark>AMI</mark>
-        to serve a web page. The second part involves the use of Terraform workspaces to dynamically control the type of infrastrcture environment that is deployed. The environments configured include 
-        <mark>default, staging and production</mark>. This helped to control the properties of the infrastrcture that is deployed on each separate environment. some of these properties include; the AMI Id, EC2 instance type, VPC Id, the
-        Subnets selected for the instances, and the desired, minimum and maximum no of Ec2 instances to be spawned in the auto scaling group.
-      </p>
-    </div>
-
-  </div>
-
-</div>
         
   <div class="container list-container" style="margin-bottom: 0.7in;">
     <h3 style="text-align: left;">Experience</h3>
 
-    <!-- <div class="row clearfix layout layout-left">
+    <div class="row clearfix layout layout-left">
       <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-        <h4>Bincom ICT Solutions</h4><p><b>Cloud Engineer (Intern, Remote)</b></p><p>December 2021 - March 2022</p>
+        <h4>Bincom Dev Center</h4><p><b>Cloud Engineer (Intern, Remote)</b></p><p>December 2022 - March 2023</p>
      <p class="no-print aditional-links"></p>
       </div>
-      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Bincom ICT solutions is a fast growing Information communication Technology (ICT)
-        Solutions firm. Founded in 2006, with a core in web and emerging technologies, Bincom aims in providing cutting edge Technology Solutions and
-        Best Use of Technology to the World.
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Bincom Dev Center is a Multi-location Technology Talent Development and Solutions Platform
       </p>
       <p>
-        - Configuration, provisioning, management and troubleshootingof cloud infrastructure (AWS) <br>
-        - AWS Cost Review and management <br>
+        - Configuration, provisioning, management and troubleshooting of cloud infrastructure (AWS &  Azure) <br>
         - IAC using Terraform <br>
-        - CI/CD Pipeline configuration <br>
+        - Built and programmed an API Gateway using python to access, modify and fetch data from a DyanomoDB database. I also implemented security features in the API as code to prevent access from unknown domains.<br>
+        - Building secure CI/CD Pipeline configuration using Codepipeline, CodeDeploy and CodeBuild for EKS, ECR and Terraform IAC code on AWS<br>
         - Specific configuration using Ansible <br>
+        - AWS Cost Review and management <br>
+        - Ec2 spawning and Autoscaling configuration<br>
         - Application service provisioning using EKS (Kubernetes) and ECS (Docker) <br>
       </p>
       </div>
     </div>
 
-    <hr> -->
+    <hr>
     
   <div class="row clearfix layout layout-left">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>Nimbles Engineering Company</h4><p><b>Network Engineer (On-site)</b></p><p>September 2019 - Febuary 2020</p>
+    <h4>Nimbles Engineering Company</h4>
+    <br>
+    <p><b>Associate DevOps Engineer (Remote)</b></p><p>March 2020 - January 2021</p>
+    <p style="padding-top: 1.1in;"><b>Network Engineer (On-site)</b></p><p>September 2019 - Febuary 2020</p>
       <!-- <a href="https://boringcompany.com/" target="_blank" class="link">boringcompany.com</a> -->
     <p class="no-print aditional-links"></p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Nimbles is an Engineering and IT firm that supplies technological
       services in areas relating to Networking and Communication, Industrial Automation and Electrical Configuration.
     </p>
-    <p>- Configured and managed and engaged in troubleshooting of various network infrastructures such as Cisco
+    <p>
+      - Built CI/CD Pipelines for services on AWS, Azure and Heroku based applications<br>
+      - Coordination and communication with Software Enginneering team on verification and validation of software code before deployment. <br>
+      - Implementation of containerized applications using Docker in kubernetes based Clusters<br>
+      - Automated multiple actions and processes as IAC using Terraform and Specific Configuration with Ansible <br>
+      - Setup of VPC, Autoscaling groups, Automatic Backup, User Roles and Policies, EC2 intances, Load Balancers, Public and Private subnets, Route tables etc.
+      <br><br>
+      - Configured and managed and engaged in troubleshooting of various network infrastructures such as Cisco
       Catalyst switches and routers, repeaters, servers, etc. This involved tasks like DHCP configuration, static
       IP assignment, NAT (network address translation) configuration, backup of already running configuration,
       repair and replacement of faulty network cables, etc <br>
@@ -270,6 +172,136 @@
 
   </div>
 
+  <div class="container list-container" style="margin-bottom: 0.7in;">
+    <h3 style="text-align: left;">Cloud Projects</h3>
+      
+<div class="row clearfix layout layout-top-middle">
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+<h4 style="text-align: left;">Cloud Resume Challenge <br>
+  <!-- Github: -->
+  <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;">
+    <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+    - Github: https://github.com/blacree/cloudresumechallenge
+  </a>
+  </h4>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+<br>
+<p style="text-align: justify;">The Cloud Resume challenge is an ongoing challenge that motivates people to study and get hands-on experience with the <mark>Cloud</mark>.
+  It is a project that helps to build and demonstrate skills fundamental to pursuing a career as an AWS Cloud Engineer. The project's challenge
+  components were outlined to be brief, often with an explanation or example as the leg work to find the needed solutions was left to the individual.
+  This was done with the aim to test one's ability to research and learn as these are integral to being a successful IT professional. 
+  The project required one to work with various technologies and implement different processes which include; <mark>HTML, CSS, DNS, JavaScript, Python, 
+  API implementation, Infrastructure as Code and CI/CD</mark>. The challenge also required a wide range of <mark>AWS</mark> services some of which include; 
+  <mark>S3, CloudFront, IAM, API Gateway, Lambda, Route53, CloudFormation, DynamoDB and AWS CLI</mark>. After completing the challenge using the aws console i went ahead to implement 
+  the same infrastrcture using <mark>Terraform</mark> which can be viewed using the Github link above.
+  This web page is hosted on <mark>AWS</mark> and is the resulting webpage of this challenge.
+</p>
+</div>
+
+<hr>
+
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+<h4 style="text-align: left;">Terraform AWS Pipeline<br>
+  <!-- Github: -->
+  <a href="https://github.com/blacree/terraform-aws-pipeline" target="_blank" class="" style="font-size: 18px;">
+    <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+    - Github: https://github.com/blacree/terraform-aws-pipeline
+  </a>
+  </h4>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+<br>
+<p style="text-align:justify">
+  This projects entails the use of Terraform code and user supplied information to deploy a Terraform plan and apply <mark>Pipeline</mark> on Terraform infrastrcture located in a 
+  Github repository on <mark>AWS</mark>. The AWS components used include <mark>codebuild, codepipeline, IAM, S3 and Cloudwatch</mark>.
+</p>
+</div>
+
+<hr>
+
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+  <h4 style="text-align: left;">Private Network Configuration and Management<br>
+    <!-- Github: -->
+    <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;">
+      <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+      <!-- - Github: https://github.com/blacree/cloudresumechallenge -->
+    </a>
+    </h4>
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+  <br>
+  <p style="text-align: justify;">
+    A subnet is created and configured to be private. This was achieved by removing all access to the public internet from the route table used by the subnet. Access to the private network was then configured
+    through the use of a bastion host which exists on a public subnet in the same VPC. From the bastion host, multiple instances were spawned and configured on the private network. Finally I configured external access 
+    from the private subnet to the public internet while also preventing external access from the public internet to the private subnet. This was done using a Nat-Gateway whose address was added to the route-table of the public network. 
+    This is useful if there is a need to perform operations such as making an update on any EC2 instance running in the private network (subnet).
+
+  </p>
+  </div>
+  
+  <hr>
+
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+<h4 style="text-align: left;">Fullstack web application deployment using ansible and bash scripting (Django application)<br>
+  <a href="https://github.com/blacree/full_stack_application_deployment_aws" target="_blank" class="" style="font-size: 18px;">
+    <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+    - Github: https://github.com/blacree/full_stack_application_deployment_aws
+  </a>
+  </h4>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+<br>
+<p style="text-align:justify">
+  A django application is deployed to AWS using <mark>terraform</mark>. This project consist of two deployment types. The first type involves deploying the application to an <mark>EC2</mark> instance in AWS in which
+  terraform is used for provisioning and <mark>ansible</mark> is used for specific configuration. The second type of deployment also involves the use of terraform for the provisioning but the <mark>EC2</mark> instance is
+  created with the use of an <mark>autoscaling group</mark> and a <mark>loadbalancer</mark> and specific configuration is done using <mark>bash scripting</mark>.
+</p>
+</div>
+
+<hr>
+
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+<h4 style="text-align: left;">Docker and Kubernetes web application deployment (Nodejs application)<br>
+  <a href="https://github.com/blacree/nodejs_myapp_k8_templates" target="_blank" class="" style="font-size: 18px;">
+    <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+    - Github: https://github.com/blacree/nodejs_myapp_k8_templates
+  </a>
+  </h4>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+<br>
+<p style="text-align:justify">
+  A node application which is packaged as a Docker image is deployed on a Docker network to interact with a Mongodb database that can be accessed using Mongoexpress. The implementation is also replicated
+  on <mark>AWS ECS</mark> and on a Kubernetes Cluster both locally (using minikube) and on <mark>AWS EKS</mark>
+</p>
+</div>
+
+<hr>
+
+<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+<h4 style="text-align: left;">Enviroment Configuration for EC2 Autoscaling on AWS<br>
+  <!-- Github: -->
+  <!-- <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;"> -->
+    <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
+    <!-- - Github: https://github.com/blacree/terraform-aws-pipeline
+  </a> -->
+  </h4>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+<br>
+<p style="text-align:justify">
+  This project which uses <mark>Terraform</mark> consists of two parts. The first part involves configuring an autoscaling group that deploys multiple <mark>EC2</mark> instances of an <mark>AMI</mark>
+  to serve a web page. The second part involves the use of Terraform workspaces to dynamically control the type of infrastrcture environment that is deployed. The environments configured include 
+  <mark>default, staging and production</mark>. This helped to control the properties of the infrastrcture that is deployed on each separate environment. some of these properties include; the AMI Id, EC2 instance type, VPC Id, the
+  Subnets selected for the instances, and the desired, minimum and maximum no of Ec2 instances to be spawned in the auto scaling group.
+</p>
+</div>
+
+</div>
+
+</div>
+
         
   <div class="container text-container">
     <h3 style="text-align: left;">Certifications</h3>
@@ -322,7 +354,7 @@ tight deadlines. I thouroughly enjoyed my time as university and learnt a
     <p>Technologies:</p>
     <ul>
       <li>AWS</li>
-      <li>Cloud Tools/Frameworks: Terraform, Ansible, Jenkins, Docker, Kubernetes, CloudFormation(AWS)</li>
+      <li>Cloud Tools/Frameworks: Terraform, Ansible, Vagrant, Jenkins, Docker, Kubernetes, CloudFormation(AWS)</li>
       <li>Programming Languages: Python, JavaScript, HTML, CSS, MySQL</li>
       <li>OS: Windows, Linux</li>
       <li>Others: Bash Scripting, Python django framework</li>
