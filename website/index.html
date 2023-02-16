@@ -316,20 +316,20 @@
 <hr>
 
 <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-<h4 style="text-align: left;">Enviroment Configuration for EC2 Autoscaling on AWS<br>
-  <!-- Github: -->
-  <!-- <a href="https://github.com/blacree/cloudresumechallenge" target="_blank" class="" style="font-size: 18px;"> -->
+<h4 style="text-align: left;">Dynamic Application Deployment using Autoscaling and Loadbalancer with Environment configuration<br>
+  <a href="https://github.com/blacree/autoscaling_loadbalancer_deployment" target="_blank" class="" style="font-size: 18px;">
     <!-- <i class="fab fa-github" title="sproogen/modern-resume-theme"></i> -->
-    <!-- - Github: https://github.com/blacree/terraform-aws-pipeline
-  </a> -->
+    - Github: https://github.com/blacree/autoscaling_loadbalancer_deployment
+  </a>
   </h4>
 </div>
 <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
 <br>
 <p style="text-align:justify">
-  This project which uses <mark>Terraform</mark> consists of two parts. The first part involves configuring an autoscaling group that deploys multiple <mark>EC2</mark> instances of an <mark>AMI</mark>
-  to serve a web page. The second part involves the use of Terraform workspaces to dynamically control the type of infrastrcture environment that is deployed. The environments configured include 
-  <mark>default, staging and production</mark>. This helped to control the properties of the infrastrcture that is deployed on each separate environment. some of these properties include; the AMI Id, EC2 instance type, VPC Id, the
+  This project is made using Terraform to dynamically accept user data and automatically deploy your web application to AWS/AZURE/GCP using your supplied configuration. 
+  Using Autoscaling and Loadbalancing technology it deploys multiple <mark>EC2</mark> instances of an <mark>AMI</mark> using the configuration you supplied to serve your web application.
+  With the use of Terraform workspaces you also dynamically control the type of infrastrcture environment that is deployed. The environments configured include 
+  <mark>default, staging and production</mark>. This helps to control the properties of the infrastrcture that is deployed on each separate environment. some of these properties include; the AMI Id, EC2 instance type, VPC Id, the
   Subnets selected for the instances, and the desired, minimum and maximum no of Ec2 instances to be spawned in the auto scaling group.
 </p>
 </div>
