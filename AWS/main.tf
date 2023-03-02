@@ -7,12 +7,12 @@ terraform {
     }
 
     # Remove backend code to use local
-    backend "s3" {
-      bucket = "crc-terraform-state-bucket"
-      encrypt = true
-      key = "terraform.tfstate"
-      region = "us-east-1"
-    }
+    # backend "s3" {
+    #   bucket = ""                   # bucket name
+    #   encrypt = true
+    #   key = ""                      # statefile name
+    #   region = "us-east-1"
+    # }
 }
 
 # Change profile to use another iam profile

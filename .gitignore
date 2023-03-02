@@ -1,3 +1,6 @@
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+AWS/.terraform/
+AWS/terraform.tfstate
+AWS/terraform.tfstate.backup
+AZURE/.terraform/
+AZURE/terraform.tfstate
+AZURE/terraform.tfstate.backup
