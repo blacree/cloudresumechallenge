@@ -33,7 +33,7 @@ A static website (resume) is hosted in a storage (s3-http | cloudfront-https) an
     * IAM
     * Azure Storage
     * Azure Cli
-    * Azure DevOps
+    * Azure DevOps Pipeline
 
 * GCP services used
     * *Coming...*
